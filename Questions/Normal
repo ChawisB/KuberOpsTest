@@ -1,0 +1,13 @@
+1. Describe Git branching strategies (Git-flow, single branch, feature branch etc.) which you have used and what purpose does it serves.
+  - Git branching strategy is a way for multiple developers to work on the same source code at the same time as opposed to having to organize all the changes before commiting which costs time. Several common types include: Gitflow (5 branches with 2 primaries being Main and Develop),  Feature branch (as the name implies, all new features are isolated in it's own branch and can be pushed to main when needed) and single branch, or more often known as trunk-based development (all development is done on the master branch).
+    I have not used any type of branching before due to the nature of my previous works being either extremely confidential for github or a new project entirely and does not warrant the need to implement this yet.
+    
+2.	How do you revert a commit that has already been pushed and made public?
+  - git reset --hard HEAD@{1}
+    git push -f
+
+3. How do you normally solve conflicts in a feature branch before merge?
+  - Resolve them manually. Go through code and perform necessary fixes.
+
+4.	“200 OK” what does it mean and show use case this HTTP Status?
+  - This status code indicates that the request has been successful. A use case for this could be when testing connection to a server or another        device.
