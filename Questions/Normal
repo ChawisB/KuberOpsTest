@@ -22,16 +22,30 @@
   - Server has denied your request due to some error. The easiest way to identify the issue is to read the error message and see where the issue is coming from. This can vary from URL issues, internet connection and DNS problems to name a few.
   
 8.	“401 Unauthorized” what does it mean and how to identify the problem?
-  - Unauthorized access. As the name suggests this is an issue with the user's authentication. Easiest solution is to log out and in again on whatever platform is being used.
+  - Unauthorized access. As the name suggests this is an issue with the user's authentication. Read error logs. Easiest solution is to log out and in again on whatever platform is being used.
   
 9.	“403 Forbidden” what does it mean and how to identify the problem?
-  - This error code means that the server has acknowledged the request but will not authorize it. Trying again later often works but to be sure, check the URL. If most solutions do not work the issue is likely server-side.
+  - This error code means that the server has acknowledged the request but will not authorize it. Read error logs. Trying again later often works but to be sure, check the URL. If most solutions do not work the issue is likely server-side.
   
 10.	“404 Not Found” what does it mean and how to identify the problem?
   - A well known error code. This means the server has acknowledged your request but the file you requested cannot be found. Refreshing can help as well as checking if your URL is indeed correct.
 
 11.	“500 Internal Server Error” what does it mean and how to identify the problem?
+  - An issue has occured with the server and it cannot process the request. Reading the error logs will usually identify the issue.
+  
 12.	“502 Bad Gateway” what does it mean and how to identify the problem?
+  - This usually happens when you are connecting to a proxy server and that server had trouble connecting to the actual server. As with every other identify the problem question, check the error logs.
+
 13.	“503 Service Unavailable” what does it mean and how to identify the problem?
+  - Request cannot be processed, check logs.
+  
 14.	“504 Gateway Timeout” what does it mean and how to identify the problem?
+  - Took too long to get a response from the server. Check error logs.
+  
 15.	What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
+  - Netstat   Shows detailed status of ports amongst other information such as IP. Useful if you have to do tasks related to ports.
+    Ping      A very commonly seen and used tool for testing connectivity.
+    Traceroute  Used to see the travel path of the packet. Can be useful for identifying if there is an issue somewhere along the path.
+    SSH       Another commonly seen tool. Used to make secure connections.
+    Curl      Usedd to make requests but most commonly seen as a way to make a download.
+    
