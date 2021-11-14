@@ -1,0 +1,16 @@
+1.	Assume that you are using a private cloud for your infrastructure. How do you manage logs, metrics, and alerts for your infrastructure and applications? Which tools do you use and why?
+2.	How do you secure the following?
+·  	application
+·  	infrastructure
+·  	data
+
+3.	Base on your experience, how do you reduce your service downtime as much as possible during
+·  	software upgrade
+·  	database migration
+·  	incident
+4.	Configuration management
+a. 	Which Among Puppet, chef, Ansible, or another is the best Configuration management tool?
+b. 	Why?
+c. 	Do you still need to use it if you already have docker-swarm or Kubernetes?
+5.	How do you design your Kubernetes cluster? what DNS, CNI, ingression is being used? Why?
+6.	How do you measure service quality to give the best experience to your customer? (SLO, SLA)
