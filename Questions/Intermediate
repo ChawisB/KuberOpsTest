@@ -1,0 +1,6 @@
+1.	Assume we have an application that is designed as below. Our application stopped responding due to an extremely high number of clients in some circumstances.
+-	We have tried scaling a number of API Gateway and Service A nodes but it didn’t help. What are the possible problems that lies in our system in which components and how to fix them?
+2.	How do you keep the docker image smallest as possible?
+3.	What is the difference between overlay, bridge, host network in Docker? When to use each of them?
+4.	How does the Kubernetes service talk to each other in the same cluster?
+5.	What’s different between L2, L4, and L7 Load balancers? When to use it?
