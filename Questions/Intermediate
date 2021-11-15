@@ -12,6 +12,9 @@
     Host means the container uses the same network as the host machine.
 
 4.	How does the Kubernetes service talk to each other in the same cluster?
-  - 
+  - pod-pod communication
 
 5.	What’s different between L2, L4, and L7 Load balancers? When to use it?
+  - L4 allows for packets to be forwarded quickly but does not inspect the contents. This is used when speed is required and not security.
+    L7 is the opposite of L4 in that it is far more secure. instead of simple forwarding, a decision is made based on the contents, however, as you can tell, performance will take a hit.
+    As for L2 
